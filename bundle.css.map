@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "..\\src\\App.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\n  import { Router, Route } from 'svero';\n  import Header from './Header.svelte';\n  import Index from './pages/Index.svelte';\n  import About from './pages/About.svelte';\n</script>\n\n<style>\n  :global(body) {\n    margin: 0;\n    padding: 0;\n  }\n\n  .container {\n    width: 80%;\n    margin: 4em auto;\n  }\n</style>\n\n<Header />\n\n<div class=\"container\">\n  <Router>\n    <Route path=\"*\" component={Index} />\n    <Route path=\"/about\" component={About} />\n  </Router>\n</div>\n"
+  ],
+  "names": [],
+  "mappings": "AAQU,IAAI,AAAE,CAAC,AACb,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,AACZ,CAAC,AAED,UAAU,eAAC,CAAC,AACV,KAAK,CAAE,GAAG,CACV,MAAM,CAAE,GAAG,CAAC,IAAI,AAClB,CAAC"
+}
