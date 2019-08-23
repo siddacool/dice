@@ -1,7 +1,5 @@
 <script>
-  import { Router, Route } from 'svero';
   import Index from './pages/Index.svelte';
-  import ThreeD from './pages/ThreeD.svelte';
 </script>
 
 <style>
@@ -20,8 +18,5 @@
 </style>
 
 <div class="wrapper">
-  <Router>
-    <Route path="/" exact component={Index} />
-    <Route path="/3d" component={ThreeD} />
-  </Router>
+  <Index />
 </div>

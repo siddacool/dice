@@ -31,7 +31,7 @@
     position: relative;
     transform-style: preserve-3d;
     transform: translateZ(-100px);
-    transition: transform 1s;
+    transition: transform 600ms;
   }
 
   .face {
