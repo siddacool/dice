@@ -37,7 +37,7 @@
 
 <div class="container">
   <div class="sub-container">
-    <p>You Rolled</p>
+    <p>You Smoked</p>
 
     <button on:click={makeFace}>
       <div class="dice-holder">
