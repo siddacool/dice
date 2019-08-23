@@ -7,6 +7,7 @@
   :global(body) {
     margin: 0;
     padding: 0;
+    font-family: 'Nunito Sans', sans-serif;
   }
 
   :global(*) { box-sizing: border-box; }
